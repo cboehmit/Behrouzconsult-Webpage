@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    background: linear-gradient(#96CEB3, #FFECBD);
+    background-repeat:repeat-x;
+}
+
+.header {
+    background: white;
+}
+
+
+.nav-item {
+    border-right: 1px solid grey;
+}
+
+.navbar-nav li a {
+
+}
+
+.nav-item.active{
+    background: lightgray;
+}
+
+.nav-item:last-child{
+    border: 0px;
+}
+
+.cust-contact-icon {
+    margin: auto;
+}
+
+.vcenter {
+    margin: auto;
+}
+
+.content {
+    padding-top: 30px;
+    bottom: 240px;
+}
+
+.footer {
+    padding: 10px;
+    box-shadow: 0px -3px 18px grey;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer-icon {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-icon img {
+    width: 60%;
+}
+
+.logo-title1 {
+    color: darkgray;
+    font-size: 46px;
+    color: rgb(96, 96, 96);
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.logo-title2 {
+    margin-top: 0;
+    padding-top: 0;
+    color: darkgray;
+    font-size: 18px;
+    color: rgb(96, 96, 96);
+    font-weight: 500;
+    line-height: 0px;
+    height: 0px;
+    padding-top: 0;
+}
+
+.navbar {
+    padding-bottom: 30px;
+}
+
+.c3inlineContent, .c3bg, .c2bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.c3bg {
+    border: 3px solid transparent;
+    background-color: rgba(242, 173, 46, 0.83);
+}
+
+.c2bg {
+    border: 3px solid transparent;
+    background-color: rgba(60, 178, 178, 0.75);
+}
