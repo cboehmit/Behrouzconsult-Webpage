@@ -1,5 +1,29 @@
-html {
+html, body {
     height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    background: linear-gradient(#96CEB3, #FFECBD);
+    background-repeat:repeat-x;
+}
+
+.pagecontent {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    bottom: 240px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px -3px 18px grey;
 }
 
 a {
@@ -7,82 +31,8 @@ a {
     text-decoration: underline;
 }
 
-.navbar a {
-    text-decoration: none;
-}
-
-body {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    background: linear-gradient(#96CEB3, #FFECBD);
-    background-repeat:repeat-x;
-}
-
 .header {
     background: white;
-}
-
-
-.nav-item {
-    border-right: 1px solid grey;
-}
-
-.navbar-nav li a {
-
-}
-
-.nav-item.active{
-    background: lightgray;
-}
-
-.nav-item:last-child{
-    border: 0px;
-}
-
-.cust-contact-icon {
-    margin: auto;
-}
-
-.vcenter {
-    margin: auto;
-}
-
-.content {
-    padding-top: 30px;
-    bottom: 240px;
-}
-
-.footer {
-    padding: 10px;
-    box-shadow: 0px -3px 18px grey;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 14px;
-}
-
-.footer-icon {
-    text-align: right;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.footer-icon img {
-    width: 60%;
-}
-
-.navbar-toggler-icon {
-    background-color: white;
-}
-
-.navbar-toggler {
-    background-color: rgb(96, 96, 96);
 }
 
 .logo-title1 {
@@ -104,6 +54,48 @@ body {
     line-height: 0px;
     height: 0px;
     padding-top: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-item {
+    border-right: 1px solid grey;
+}
+
+.nav-item.active{
+    background: lightgray;
+}
+
+.nav-item:last-child{
+    border: 0px;
+}
+
+.cust-contact-icon {
+    margin: auto;
+}
+
+.vcenter {
+    margin: auto;
+}
+
+.footer-icon {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-icon img {
+    width: 60%;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-toggler {
+    background-color: rgb(96, 96, 96);
 }
 
 .navbar {
